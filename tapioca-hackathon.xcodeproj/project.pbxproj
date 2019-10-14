@@ -11,10 +11,11 @@
 		7B63CDA32349849600756D65 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B63CDA22349849600756D65 /* art.scnassets */; };
 		7B63CDA52349849600756D65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B63CDA42349849600756D65 /* ViewController.swift */; };
 		7B63CDA82349849600756D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B63CDA62349849600756D65 /* Main.storyboard */; };
-		7B63CDAA2349849A00756D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B63CDA92349849A00756D65 /* Assets.xcassets */; };
 		7B63CDAD2349849A00756D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B63CDAB2349849A00756D65 /* LaunchScreen.storyboard */; };
 		7B63CDB82349849A00756D65 /* tapioca_hackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B63CDB72349849A00756D65 /* tapioca_hackathonTests.swift */; };
 		7B63CDC32349849A00756D65 /* tapioca_hackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B63CDC22349849A00756D65 /* tapioca_hackathonUITests.swift */; };
+		7B63CDD32349BA0600756D65 /* particle in Resources */ = {isa = PBXBuildFile; fileRef = 7B63CDD22349BA0600756D65 /* particle */; };
+		7B63CDD72349DEF500756D65 /* icon0105.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B63CDD62349DEF400756D65 /* icon0105.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		7B63CDA22349849600756D65 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		7B63CDA42349849600756D65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B63CDA72349849600756D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7B63CDA92349849A00756D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B63CDAC2349849A00756D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B63CDAE2349849A00756D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B63CDB32349849A00756D65 /* tapioca-hackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tapioca-hackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +49,8 @@
 		7B63CDBE2349849A00756D65 /* tapioca-hackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tapioca-hackathonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B63CDC22349849A00756D65 /* tapioca_hackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapioca_hackathonUITests.swift; sourceTree = "<group>"; };
 		7B63CDC42349849A00756D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B63CDD22349BA0600756D65 /* particle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = particle; sourceTree = "<group>"; };
+		7B63CDD62349DEF400756D65 /* icon0105.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon0105.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		7B63CD9F2349849600756D65 /* tapioca-hackathon */ = {
 			isa = PBXGroup;
 			children = (
-				7B63CDA02349849600756D65 /* AppDelegate.swift */,
-				7B63CDA22349849600756D65 /* art.scnassets */,
-				7B63CDA42349849600756D65 /* ViewController.swift */,
-				7B63CDA62349849600756D65 /* Main.storyboard */,
-				7B63CDA92349849A00756D65 /* Assets.xcassets */,
-				7B63CDAB2349849A00756D65 /* LaunchScreen.storyboard */,
+				7B63CDD22349BA0600756D65 /* particle */,
 				7B63CDAE2349849A00756D65 /* Info.plist */,
+				7B63CDAB2349849A00756D65 /* LaunchScreen.storyboard */,
+				7B63CDA62349849600756D65 /* Main.storyboard */,
+				7B63CDA02349849600756D65 /* AppDelegate.swift */,
+				7B63CDA42349849600756D65 /* ViewController.swift */,
+				7B63CDD62349DEF400756D65 /* icon0105.png */,
+				7B63CDA22349849600756D65 /* art.scnassets */,
 			);
 			path = "tapioca-hackathon";
 			sourceTree = "<group>";
@@ -232,9 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B63CDD32349BA0600756D65 /* particle in Resources */,
 				7B63CDA32349849600756D65 /* art.scnassets in Resources */,
 				7B63CDAD2349849A00756D65 /* LaunchScreen.storyboard in Resources */,
-				7B63CDAA2349849A00756D65 /* Assets.xcassets in Resources */,
+				7B63CDD72349DEF500756D65 /* icon0105.png in Resources */,
 				7B63CDA82349849600756D65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  tapioca-hackathon
 //
-//  Created by タダ・ドラマ on 2019/10/06.
+//  Created by drama on 2019/10/06.
 //  Copyright © 2019 1901drama. All rights reserved.
 //
 
