@@ -46,6 +46,6 @@ specification
 
 [note (@1901drama)](https://note.mu/1901drama/n/n737a7a479a61)
 
-[GitHub (@1901drama)](https://github.com/1901drama/ARKit3Hackaton-ARInvader)
+[GitHub (@1901drama)](https://github.com/1901drama/tapioca-hackathon)
 
 ☆ (star), 👍 (like) etc. If you can give feedback, I will do my best, so thank you!
